@@ -1,10 +1,8 @@
 package com.cakefactory.app.service;
 
-import com.cakefactory.app.model.Item;
-
-import java.util.List;
+import com.cakefactory.app.model.ItemDTO;
 
 public interface CatalogService {
 
-    List<Item> findAll();
+    Iterable<ItemDTO> getItems();
 }
